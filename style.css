@@ -1,0 +1,49 @@
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  place-content: center;
+  background: #fff;
+  font-family:sans-serif;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.clickEvent{
+  margin-top: 30px;
+  min-height: 100px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.1);
+  border:1px solid #fdc9d2;
+  font-weight: lighter;
+}
+.clickEvent p{
+  width: 450px;
+  padding: 0 10px;
+}
+.clickEvent button{
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background:#fdc9d2;
+  padding: 10px;
+}
+input{
+  margin-top: 40px;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #fdc9d2;
+}
+fieldset{
+  margin-top: 30px;
+  font-weight: normal;
+  color: grey;
+  outline: none;
+  border: 1px solid #fdc9d2;
+}
